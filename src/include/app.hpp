@@ -2,6 +2,7 @@
 #define app_hpp
 
 #include "window.hpp"
+#include "pipeline.hpp"
 
 namespace gengine
 {
@@ -18,9 +19,10 @@ public:
 
 private:
     const Window window{WIDTH, HEIGHT, "Gengine"};
+    const Pipeline pipeline{"spv/simple_shader.vert.spv", "spv/simple_shader.frag.spv"};
 
 };
 
-}
+} // namespace gengine
 
 #endif /* app_hpp */

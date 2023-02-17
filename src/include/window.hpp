@@ -30,6 +30,6 @@ private:
 
 };
 
-}
+} // namespace gengine
 
 #endif /* window_hpp */

@@ -2,11 +2,11 @@
 #include <stdexcept>
 #include <iostream>
 
-#include "./include/app.hpp"
+#include "app.hpp"
 
 int main()
 {
-    gengine::App app{};
+    gengine::App app;
 
     try
     {
@@ -17,7 +17,6 @@ int main()
         std::cerr << e.what() << '\n';
         return EXIT_FAILURE;
     }
-    
     
     return EXIT_SUCCESS;
 }

@@ -1,4 +1,4 @@
-#include "./include/app.hpp"
+#include "app.hpp"
 
 namespace gengine
 {
@@ -11,4 +11,4 @@ void App::Run()
     }
 }
 
-}
+} // namespace gengine

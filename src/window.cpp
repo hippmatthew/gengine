@@ -1,4 +1,4 @@
-#include "./include/window.hpp"
+#include "window.hpp"
 
 namespace gengine
 {
@@ -29,4 +29,4 @@ namespace gengine
         return glfwWindowShouldClose(window);
     }
 
-}
+} // namepspace gengine
