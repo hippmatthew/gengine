@@ -20,6 +20,8 @@ public:
 
     bool ShouldClose() const;
 
+    void createWindowSurface(VkInstance instance, VkSurfaceKHR * surface);
+
 private:
     const int height, width;
     const std::string windowTitle;
